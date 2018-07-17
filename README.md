@@ -6,6 +6,8 @@ A simple laravel-vuejs boilerplate
 * Vue-Fontawesome 5
 * JWT auth 1.0.0-rc.2
 * axios
+* Vuex
+* Vuex-router-sync
 * hot module replacement
 
 .. and a super basic structure, especially good for beginners.
@@ -35,7 +37,8 @@ With seeding there should be a user pre-defined in your database. When you open 
 If it does, your JWT works as intended.
 
 __api.php__ contains api routes
-__app.js__ contains vue-router routes and global imports/uses
+__router.js__ contains vue-router routes
+__app.js__ contains global imports/uses
 
 If you want to use fontawesone icons, add more to the library just like the example in __app.js__ (the coffee icon)
 
