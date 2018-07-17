@@ -8,6 +8,8 @@ library.add(faCoffee)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+Vue.prototype.$eventBus = new Vue();
+
 const app = new Vue({
     el: '#app',
     components: { App },
